@@ -1,5 +1,5 @@
 ###
-# Please modify API_KEY, user & popcodeData accordingly before running
+# Please modify API_KEY, userId & popcodeData accordingly before running
 #
 ###
 #
@@ -8,7 +8,7 @@ API_KEY = ""
 
 user =
 {
-  "userId": "Please enter a unique uid",
+  "userId": "Please enter a unique userId",
   "userInfo": {
     "profileUrl": "http://your.profile.here"
   }
@@ -30,11 +30,11 @@ popcodeData =
     userId: user.userId
     userInfo: user.userInfo
     idAddress: idkey.address
-    value:  #integer
-    uom: "" #string
-    name: "" #string
-    batch: "" #string 
-    serial:  #integer 
+    value: #integer
+    uom: #string
+    name:#terstring
+    batch:#string 
+    serial: #integer 
 
 thingchain.faucet.withdraw(popcodeData, (e, tx) ->
     wtx = tx.data
