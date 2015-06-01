@@ -4,11 +4,11 @@
 ###
 #
 thingchain = require('../index')
-API_KEY = "Ijcv9mn7fp"
+API_KEY = ""
 
 user =
 {
-  "userId": "rushil",
+  "userId": "Please enter your unique uid",
   "userInfo": {
     "profileUrl": "http://your.profile.here"
   }
