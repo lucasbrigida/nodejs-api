@@ -4,11 +4,11 @@
 ###
 #
 thingchain = require('../index')
-API_KEY = ""
+API_KEY = "Ijcv9mn7fp"
 
 user =
 {
-  "userId": "Please enter a unique userId",
+  "userId": "rushil",
   "userInfo": {
     "profileUrl": "http://your.profile.here"
   }
@@ -30,9 +30,9 @@ popcodeData =
     userId: user.userId
     userInfo: user.userInfo
     idAddress: idkey.address
-    value: #integer
+    value:#integer
     uom: #string
-    name:#terstring
+    name:#string
     batch:#string 
     serial: #integer 
 
@@ -64,7 +64,17 @@ thingchain.faucet.withdraw(popcodeData, (e, tx) ->
                 console.log "Transaction Hex:", r.txHex
                 console.log "Transaction ID:", r.data
                 console.log("==========")
-                thingchain.popcode.print({popcodes: pclist})
+                thingchain.popcode.print({popcodes: pclist}, (err, html) ->
+                    if err
+                        console.log(err)
+                        return
+
+                    
+                    fs = require('fs')
+                    fs.writeFile("popcodes.html", html, (err) ->
+                        console.log("successfully created popcodes.html")
+                    )
+                )
 
         )
     )
