@@ -1,17 +1,16 @@
 {
   "name": "thingchain",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "thingchain js api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "rushil.ram@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bitcore": "^0.11.7",
     "jade": "^1.9.2",
     "request": "^2.55.0",
-    "sleep": "^2.0.0"
   }
 }
