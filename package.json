@@ -6,14 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": {
     "name": "rushil.ram@gmail.com"
   },
+=======
+  "author": "rushil.ram@gmail.com",
+>>>>>>> afe27aae219551b999d97e6ef0eaeac39dda9cea
   "license": "ISC",
   "dependencies": {
     "bitcore": "^0.11.7",
     "jade": "^1.9.2",
     "request": "^2.55.0"
+<<<<<<< HEAD
   },
   "gitHead": "afe27aae219551b999d97e6ef0eaeac39dda9cea",
   "_id": "thingchain@0.0.4",
@@ -41,4 +46,7 @@
   "directories": {},
   "_resolved": "https://registry.npmjs.org/thingchain/-/thingchain-0.0.4.tgz",
   "readme": "ERROR: No README data found!"
+=======
+  }
+>>>>>>> afe27aae219551b999d97e6ef0eaeac39dda9cea
 }
