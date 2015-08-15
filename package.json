@@ -1,0 +1,44 @@
+{
+  "name": "thingchain",
+  "version": "0.0.4",
+  "description": "thingchain js api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "rushil.ram@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bitcore": "^0.11.7",
+    "jade": "^1.9.2",
+    "request": "^2.55.0"
+  },
+  "gitHead": "afe27aae219551b999d97e6ef0eaeac39dda9cea",
+  "_id": "thingchain@0.0.4",
+  "_shasum": "def0669ff73a67c8859d1f4a1922bff5ce1e2ae1",
+  "_from": "thingchain@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "rram",
+    "email": "rushil.ram@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "ssriram",
+      "email": "ssriram@gmail.com"
+    },
+    {
+      "name": "rram",
+      "email": "rushil.ram@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "def0669ff73a67c8859d1f4a1922bff5ce1e2ae1",
+    "tarball": "http://registry.npmjs.org/thingchain/-/thingchain-0.0.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/thingchain/-/thingchain-0.0.4.tgz",
+  "readme": "ERROR: No README data found!"
+}
