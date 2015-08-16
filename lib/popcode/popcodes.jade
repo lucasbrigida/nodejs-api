@@ -14,14 +14,10 @@ mixin blank(i)
 div(style='margin:0px 0px 4px 2px;padding-left:18px') &nbsp;
 
 - for (var popcode=0; popcode<popcodes.length; ++popcode) {
-  div(style='float:left')
+  div(style='float:left;text-align:center')
     div(style='position:relative')
       - var url = escape("https://thingcha.in/qr" + popcodes[popcode]['privatekey']);
-
-        div(style='position:absolute;top:4px;left:78px;font-size:.4em;')
-            | thingchain.com
         +popcode(popcode, url)
-        div(style='position:absolute;top:110px;left:64px;font-size:.6em;') SeqNum: #{popcodes[popcode]['sequenceNum']}
   if (popcode+1)%4 == 0
     div(style='margin:7px;clear:both') &nbsp;
 - }

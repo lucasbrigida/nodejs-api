@@ -1,6 +1,6 @@
 {
   "name": "thingchain",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "thingchain js api",
   "main": "index.js",
   "scripts": {
