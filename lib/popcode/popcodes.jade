@@ -1,8 +1,8 @@
 mixin popcode(i, url)
     if i%4 == 1
-        img(style='padding:1px 0px 0px 42px;margin:0px;' src='http://chart.apis.google.com/chart?cht=qr&chs=400x400&chl=#{url}')
+        img(style='padding:1px 0px 0px 42px;margin:0px;' src='http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=#{url}')
     else
-        img(style='padding:1px 0px 0px 36px;margin:0px;' src='http://chart.apis.google.com/chart?cht=qr&chs=400x400&chl=#{url}')
+        img(style='padding:1px 0px 0px 36px;margin:0px;' src='http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=#{url}')
 
 mixin blank(i)
     if i%4 == 1
